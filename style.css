@@ -1,0 +1,40 @@
+html,
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2vw;
+    /* font-size: calc(2vw + 1rem); */
+}
+
+nav {
+    background-color: bisque;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+}
+
+nav h3 {
+    margin-right: 30px;
+}
+
+.intro {
+    font-size: larger;
+    text-align: center;
+}
+
+.intro img {
+    width: 150px;
+    border-radius: 100%;
+}
+
+.movie {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.movie img {
+    height: 250px;
+    margin: 0 0.5rem 0 0.5rem;
+}
